@@ -51,6 +51,22 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style type="text/css">
+		.desc h3
+		{
+			transition: 0.5s all;
+			cursor: pointer;
+		}
+		.desc:hover h3
+		{
+			font-size: 26px;
+			color: grey;
+		}
+		.desc p
+		{
+			display: none;
+		}
+	</style>
 
 	</head>
 	<body style="background-image: url(images/texture.jpg); background-repeat:round">
@@ -233,9 +249,7 @@
 									<div class="services">
 										<span class="icon">
 											<i class="flaticon-engineer"></i>
-										</span>
-										
-							
+										</span>					
 										<div class="desc">
 											<h3>General Contracting</h3>
 											<p>We undertake single point responsibility of civil & structural works along with internal infrastructure, finishes, MEP and other specialized services.</p>
@@ -253,7 +267,10 @@
 											</div>
 									</div>
 								</div>
-							
+							</div>
+						</div>
+						<div class="row">
+							<div class="wrap">
 								<div class="col-md-6 animate-box">
 									<div class="services">
 										<span class="icon">
@@ -276,7 +293,10 @@
 											</div>
 									</div>
 								</div>
-							
+							</div>
+						</div>
+						<div class="row">
+							<div class="wrap">
 								<div class="col-md-6 animate-box">
 									<div class="services">
 										<span class="icon">
@@ -298,8 +318,7 @@
 											<p>Our preconstruction Design services ensure maximum return on investment and include Architectural part, planning and coordination, procurement, estimating, scheduling, value engineering, constructability</p>
 											</div>
 									</div>
-								</div>
-							
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -378,6 +397,11 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		$(".desc h3").click(function(){
+    		$(this).closest(".desc").find("p").slideToggle();
+		});
+	</script>
 
 	</body>
 </html>
