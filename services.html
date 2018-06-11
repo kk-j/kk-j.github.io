@@ -52,7 +52,22 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<style type="text/css">
+		.desc h3
+		{
+			transition: 0.5s all;
+			cursor: pointer;
+		}
+		.desc:hover h3
+		{
+			font-size: 26px;
+			color: grey;
+		}
+		.desc p
+		{
+			display: none;
+		}
+	</style>
 	</head>
 	<body>
 		
@@ -144,6 +159,8 @@
 								</div>
 						</div>
 					</div>
+				</div>
+				<div class="row">
 					<div class="col-md-4 animate-box">
 						<div class="services">
 							<span class="icon">
@@ -361,6 +378,11 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		$(".desc h3").click(function(){
+    		$(this).closest(".desc").find("p").slideToggle();
+		});
+	</script>
 
 	</body>
 </html>
