@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5,
 }
 
 .bg-image, .site-cover {
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5,
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   .site-cover .site-heading {
     font-size: 37px;
     line-height: 1.3;
