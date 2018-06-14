@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .colorlib-nav {
   max-height: 110px;
   opacity: 0.7;
-  background-color: black;
+  background-color: rgba(230,234,242,0.2);
   line-height: 0.6;
   margin: 0;
   position: absolute;
