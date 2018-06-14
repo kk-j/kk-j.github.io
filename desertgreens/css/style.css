@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6, figure {
         vertical-align: middle;
         height: 700px;
         padding: 2em; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-device-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, figure {
           font-size: 50px;
           line-height: 1.3;
           font-weight: 700; }
-          @media screen and (max-width: 768px) {
+          @media screen and (max-device-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
             border-bottom: 1px solid rgba(255, 205, 0, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
-          @media screen and (max-width: 768px) {
+          @media screen and (max-device-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6, figure {
             color: #fff; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
             background: #000 !important; }
-          @media screen and (max-width: 480px) {
+          @media screen and (max-device-width: 480px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
