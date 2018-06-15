@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6, figure {
       overflow: hidden; }
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center center;
         min-height: 650px;
         position: relative; }
