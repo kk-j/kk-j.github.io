@@ -62,13 +62,21 @@
 			font-size: 26px;
 			color: grey;
 		}
-		.desc p
+		/*.desc p
 		{
 			display: none;
 			background-color: #fff;
 			box-sizing: border-box;
 			box-shadow: 1px 2px 2px black;
-		}
+		}*/
+		.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
 	</style>
 
 	</head>
@@ -255,8 +263,8 @@
 											<i class="flaticon-engineer"></i>
 										</span>					
 										<div class="desc">
-											<h3>General Contracting</h3>
-											<p>We are focused on delivering high quality work within budgeted time and costs. Through General Contracting, we undertake single point responsibility of civil & structural works along with internal infrastructure (roads, landscaping etc.) finishes (internal & external both), MEP (HVAC, Electrical, Plumbing, Sanitary, Fire Fighting Systems etc.) and other specialized services (BMS, Elevators, Landscaping etc.). Often this includes procurement of material, services, OEM and labour or/and any combination of these. DGPL takes the overall responsibility of harmonization for smooth execution of the project as per the schedule.</p>
+											<h3 id="topic1">General Contracting</h3>
+										
 										</div>
 									</div>
 								</div>
@@ -266,8 +274,8 @@
 											<i class="flaticon-engineering"></i>
 										</span>
 										<div class="desc">
-											<h3>Design Build</h3>
-											<p>We execute single point of responsibility contract and is used to minimize risks for the project owner and to reduce the delivery schedule by overlapping the design phase and construction phase of a project.   This single point responsibility carries the clearest contractual remedies for the clients because we will be responsible for all of the work on the project, regardless of the nature of the fault.</p>
+											<h3 id="topic2">Design Build</h3>
+											
 											</div>
 									</div>
 								</div>
@@ -281,8 +289,8 @@
 											<i class="flaticon-skyline"></i>
 										</span>
 										<div class="desc">
-											<h3>Land Re Development</h3>
-											<p>Redevelopment projects can be small or large ranging from a single building to entire new neighborhoods or "new town in town" projects where older structures are converted for improved current market use, such as an industrial mill into housing or Constructing with a denser land usage, such as the redevelopment of a block of townhouses into a large apartment building.</p>
+											<h3 id="topic3">Land Re Development</h3>
+											
 											</div>
 									</div>
 								</div>
@@ -292,8 +300,8 @@
 											<i class="flaticon-crane"></i>
 										</span>
 										<div class="desc">
-											<h3>Construction Services</h3>
-											<p>We provide construction services that integrate schedule and cost control into day-to-day activities to keep projects on schedule and on budget. These include project management, project controls, subcontractor outreach, commissioning and start up, closeout, human resources, self-performance, design management, and many more. </p>
+											<h3 id="topic4">Construction Services</h3>
+											
 											</div>
 									</div>
 								</div>
@@ -307,8 +315,8 @@
 											<i class="flaticon-sketch"></i>
 										</span>
 										<div class="desc">
-											<h3>Project Delivery Method</h3>
-											<p>It's  a system we use to manage  finance, construction, operations, and maintenance services for a structure or facility by entering into legal agreements with one or more entities or parties. BOT represents complete integration of the project delivery: the same contract governs the design, construction, operations, maintenance and financing of the project.</p>
+											<h3 id="topic5">Project Delivery Method</h3>
+											
 											</div>
 									</div>
 								</div>
@@ -318,8 +326,8 @@
 											<i class="flaticon-conveyor"></i>
 										</span>
 										<div class="desc">
-											<h3>Pre construction</h3>
-											<p>Our preconstruction Design services ensure maximum return on investment and include Architectural part, planning and coordination, procurement, estimating, scheduling, value engineering, constructability. Project-specific strategies to manage, control and document procedures based on our best practices and standard operating procedures.</p>
+											<h3 id="topic6">Pre construction</h3>
+											
 											</div>
 									</div>
 								</div>							
@@ -407,7 +415,7 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		$(".desc h3").click(function(){
     		if($(this).closest(".desc").find("p").css("display")==="none")
 			{
@@ -421,7 +429,54 @@
 			}
 		});
 	</script>
+ -->
+ 	<script type="text/javascript">
+// Example: 2 Dynamically created
+$('#topic1').magnificPopup({
+  items: {
+      src: '<div class="white-popup">We are focused on delivering high quality work within budgeted time and costs. Through General Contracting, we undertake single point responsibility of civil & structural works along with internal infrastructure (roads, landscaping etc.) finishes (internal & external both), MEP (HVAC, Electrical, Plumbing, Sanitary, Fire Fighting Systems etc.) and other specialized services (BMS, Elevators, Landscaping etc.). Often this includes procurement of material, services, OEM and labour or/and any combination of these. DGPL takes the overall responsibility of harmonization for smooth execution of the project as per the schedule.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+$('#topic2').magnificPopup({
+  items: {
+      src: '<div class="white-popup">We execute single point of responsibility contract and is used to minimize risks for the project owner and to reduce the delivery schedule by overlapping the design phase and construction phase of a project.   This single point responsibility carries the clearest contractual remedies for the clients because we will be responsible for all of the work on the project, regardless of the nature of the fault.<</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+$('#topic3').magnificPopup({
+  items: {
+      src: '<div class="white-popup">Redevelopment projects can be small or large ranging from a single building to entire new neighborhoods or "new town in town" projects where older structures are converted for improved current market use, such as an industrial mill into housing or Constructing with a denser land usage, such as the redevelopment of a block of townhouses into a large apartment building.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+$('#topic4').magnificPopup({
+  items: {
+      src: '<div class="white-popup">We provide construction services that integrate schedule and cost control into day-to-day activities to keep projects on schedule and on budget. These include project management, project controls, subcontractor outreach, commissioning and start up, closeout, human resources, self-performance, design management, and many more. </div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+$('#topic5').magnificPopup({
+  items: {
+      src: '<div class="white-popup">It is  a system we use to manage  finance, construction, operations, and maintenance services for a structure or facility by entering into legal agreements with one or more entities or parties. BOT represents complete integration of the project delivery: the same contract governs the design, construction, operations, maintenance and financing of the project.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+$('#topic6').magnificPopup({
+  items: {
+      src: '<div class="white-popup">Our preconstruction Design services ensure maximum return on investment and include Architectural part, planning and coordination, procurement, estimating, scheduling, value engineering, constructability. Project-specific strategies to manage, control and document procedures based on our best practices and standard operating procedures.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
 
+
+	</script>
 	</body>
 </html>
 
