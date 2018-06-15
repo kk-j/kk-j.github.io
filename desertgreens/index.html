@@ -65,6 +65,9 @@
 		.desc p
 		{
 			display: none;
+			background-color: #fff;
+			box-sizing: border-box;
+			box-shadow: 1px 2px 2px black;
 		}
 	</style>
 
@@ -98,7 +101,7 @@
 								</li>
 								<li><a href="#">Alliances</a></li>
 								<li><a href="#">Career</a></li>
-								<li><a href="#">Services</a></li>
+								<li><a href="services.html">Services</a></li>
 								<li><a href="#">News and Notices</a></li>
 								
 								<li><a href="contact.html">Contact</a></li>
@@ -406,7 +409,16 @@
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
 		$(".desc h3").click(function(){
-    		$(this).closest(".desc").find("p").slideToggle();
+    		if($(this).closest(".desc").find("p").css("display")==="none")
+			{
+				$(".desc p:not(this)").slideUp();
+				$(this).closest(".desc").find("p").slideDown();	
+			}
+			else
+			{
+				$(".desc p").slideUp();
+				// $(this).closest(".desc").find("p").slideUp();	
+			}
 		});
 	</script>
 

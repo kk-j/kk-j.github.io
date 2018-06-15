@@ -66,10 +66,13 @@
 		.desc p
 		{
 			display: none;
+			background-color: #fff;
+			box-sizing: border-box;
+			box-shadow: 1px 2px 2px black;
 		}
 	</style>
 	</head>
-	<body>
+	<body style="background-image: url(images/texture.jpg); background-repeat:round">
 		
 	<div class="colorlib-loader"></div>
 
@@ -123,7 +126,7 @@
 		  	</div>
 		</aside>
 
-		<div id="colorlib-services">
+		<div id="colorlib-services" style="background-image: url(images/texture.jpg); background-repeat:round">
 			<div class="container">
 				<div class="row">
 				<div class="wrap">
@@ -202,7 +205,7 @@
 			</div>
 		</div>
 
-		<div id="colorlib-testimony" class="colorlib-light-grey">
+		<div id="colorlib-testimony" class="colorlib-light-grey" style="background-image: url(images/texture.jpg); background-repeat:round">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 animate-box colorlib-heading animate-box">
@@ -384,7 +387,16 @@
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
 		$(".desc h3").click(function(){
-    		$(this).closest(".desc").find("p").slideToggle();
+			if($(this).closest(".desc").find("p").css("display")==="none")
+			{
+				$(".desc p:not(this)").slideUp();
+				$(this).closest(".desc").find("p").slideDown();	
+			}
+			else
+			{
+				$(".desc p").slideUp();
+				// $(this).closest(".desc").find("p").slideUp();	
+			}
 		});
 	</script>
 
