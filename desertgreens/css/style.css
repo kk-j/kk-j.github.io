@@ -1128,7 +1128,7 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: rgba(230,234,242,0.2);
   top: 0;
   right: 0;
   top: 0;
@@ -1154,9 +1154,9 @@ input[type="text"] {
     -o-transform: translateX(0px);
     transform: translateX(0px); }
   #colorlib-offcanvas a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: yellow; }
     #colorlib-offcanvas a:hover {
-      color: rgba(255, 255, 255, 0.8); }
+      color: #18def0; }
   #colorlib-offcanvas ul {
     padding: 0;
     margin: 0; }
@@ -1487,3 +1487,11 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+.more
+{
+	color: blue;
+}
+.more:hover
+{
+	color: yellow;
+}
