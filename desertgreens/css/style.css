@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6, figure {
         padding: 30px 0px !important;
         color: #fff; }
         .colorlib-nav ul li.btn-cta a span {
-          background: #226de5;
+          background: yellow;
           padding: 4px 10px;
           display: -moz-inline-stack;
           display: inline-block;
