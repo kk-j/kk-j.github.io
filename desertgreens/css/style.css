@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #2d2d2d;
   background: #e6eaf2; }
 .col-xs-10 li
@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5, h6, figure {
     content: ''; }
 
 .project {
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -1157,7 +1157,7 @@ input[type="text"] {
   #colorlib-offcanvas a {
     color: yellow; }
     #colorlib-offcanvas a:hover {
-      color: #18def0; }
+      color: yellow; }
   #colorlib-offcanvas ul {
     padding: 0;
     margin: 0; }
