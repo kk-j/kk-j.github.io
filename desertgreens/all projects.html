@@ -255,7 +255,7 @@
 		<!-- footer -->
 
 		<div>
-			<img src="images/im.jpg">
+			<img id="footimg" src="images/im.jpg">
 		</div>
 
 		<footer id="colorlib-footer" role="contentinfo">
@@ -339,6 +339,15 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<!-- jQuery to resize the footer image -->
+	<script type="text/javascript">
+		var width=$(window).width();
+		$("#footimg").css("width",width+"px");
+		$(window).resize(function(){
+			var width=$(window).width();
+			$("#footimg").css("width",width+"px");
+		})
+	</script>
 
 	</body>
 </html>
