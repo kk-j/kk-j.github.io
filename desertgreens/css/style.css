@@ -395,7 +395,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-counter,
 #colorlib-subscribe,
 #colorlib-footer {
-  padding: 7em 0;
+  padding-top: 40px;
+  padding-bottom: 0px;
   clear: both; }
   @media screen and (max-width: 768px) {
     #colorlib-intro,
@@ -411,7 +412,7 @@ h1, h2, h3, h4, h5, h6, figure {
       padding: 3em 0; } }
 
 #colorlib-intro {
-  padding-top: 7em;
+  padding-top: 40px;
   padding-bottom: 0; }
   #colorlib-intro .box {
     background: #226de5;
