@@ -67,6 +67,20 @@
 		{
 			color: yellow;
 		}
+		.data
+		{
+			z-index: 10;
+		}
+		.white-popup {
+  			position: relative;
+  			font-color: black;
+ 			background: #7daaf2;
+ 			padding: 20px;
+ 			width:auto;
+ 			max-width: 500px;
+ 			margin: 20px auto;
+ 			font-weight: 500;
+		}	
 	</style>
 
 	</head>
@@ -183,8 +197,8 @@
 									<i class="fa fa-envelope" style="color:blue;"></i> alok@desertgreens.in
 									<br>
 								</div>
-								<div href="images/person1-desc.jpg" class="image-popup-link parag" style="cursor:pointer">
-									<span style="color: blue; font-family: calibiri">Know More </span>
+								<div class="parag" style="cursor:pointer">
+									<span id="person1" style="color:blue; font-family: calibiri">Know More </span>
 									</p>
 								</div>
 							
@@ -208,8 +222,9 @@
 									<i class="fa fa-linkedin" style="color: blue;"></i> kumar-kaushal-3a0737102
 									<br>
 								</div>
-								<div  style="cursor:pointer">
-									<span href="images/person2-desc.jpg" class="image-popup-link parag" style="color: blue; font-family: calibiri">Know More</span></p>
+								<div class="parag" style="cursor:pointer">
+									<span id="person2" style="color:blue; font-family: calibiri">Know More </span>
+									</p>
 								</div>
 							</a> 
 						</div>
@@ -309,6 +324,26 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<script type="text/javascript">
+// Example: 2 Dynamically created
+$('#person1').magnificPopup({
+  items: {
+      src: '<div class="white-popup">Alok Goyal is based out of Jaipur and completed his Graduation in Civil Engineering in the year 1987 and MBA and diploma in Computer Application in the contiguous year.<br> He started his career as a Consultant for a pioneer firm who were experienced at CAD based structural designing.Later down the years he got associated with PSUs,ULBs and various corporate clients for projects related to housing,clonisation,development of new cost effective technologies.<br> After gaining experience for three decades in various sectors including affordable housing projects he got associated with us in the year 2016 when desert greens started their Construction venture.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+
+$('#person2').magnificPopup({
+  items: {
+      src: '<div class="white-popup">Kumar Kaushal completed his B-tech from NIT(National Institute of Technology) –Durgapur,he earned a certification in Lean Six Sigma and a degree in Management from S.P Jain(Mumbai). <br> He supervises and controls the diverse Business operations,Finance,Business strategies,plans and procedures.<br>His role is focused on driving operational performance of the group through rigour and synergy in capital allocation,investment management decisions and portfolio optimization.</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
+});
+
+</script>
 
 	</body>
 </html>
