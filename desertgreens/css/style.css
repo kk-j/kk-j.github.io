@@ -88,12 +88,12 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   z-index: 9;
   margin: 0 auto; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .colorlib-nav {
       margin: 0; } }
   .colorlib-nav .top-menu {
     padding: 40px 30px; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
       .colorlib-nav .top-menu {
         padding: 28px 1em; } }
   .colorlib-nav #colorlib-logo {
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6, figure {
     .colorlib-nav #colorlib-logo a {
       position: relative;
       color: #fff; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .colorlib-nav .menu-1 {
       display: none; } }
   .colorlib-nav ul {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
         vertical-align: middle;
         height: 700px;
         padding: 2em; }
-        @media screen and (max-device-width: 768px) {
+        @media screen and (max-device-width: 1200px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6, figure {
           line-height: 1.3;
           font-weight: 700;
           color: blue; }
-          @media screen and (max-device-width: 768px) {
+          @media screen and (max-device-width: 1200px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6, figure {
             border-bottom: 1px solid rgba(255, 205, 0, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
-          @media screen and (max-device-width: 768px) {
+          @media screen and (max-device-width: 1200px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 40px;
   padding-bottom: 0px;
   clear: both; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     #colorlib-intro,
     #colorlib-about,
     #colorlib-services,
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 80%;
     margin: 10px auto 0 auto;
     padding: 2em 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
       #colorlib-intro .box {
         margin-bottom: 2em;
         width: 100%; } }
@@ -450,13 +450,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .wrap {
   padding-left: 2em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .wrap {
       padding-left: 0; } }
 
 .wrap-2 {
   padding-right: 2em; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .wrap-2 {
       padding-right: 0; } }
 
@@ -662,7 +662,7 @@ h1, h2, h3, h4, h5, h6, figure {
       float: left; }
       #colorlib-testimony .testimony-slide figure img {
         width: 140px; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
           #colorlib-testimony .testimony-slide figure img {
             width: 80px; } }
     #colorlib-testimony .testimony-slide blockquote {
@@ -672,7 +672,7 @@ h1, h2, h3, h4, h5, h6, figure {
       position: relative;
       padding: 0 0 0 170px;
       color: #000; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1200px) {
         #colorlib-testimony .testimony-slide blockquote {
           padding-left: 100px; } }
   #colorlib-testimony .testimony-wrap {
@@ -694,7 +694,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-transition: 0.3s;
     transition: 0.3s;
     padding: 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
       #colorlib-testimony .owl-carousel .owl-controls .owl-nav .owl-next,
       #colorlib-testimony .owl-carousel .owl-controls .owl-nav .owl-prev,
       #colorlib-testimony .owl-carousel-posts .owl-controls .owl-nav .owl-next,
@@ -845,7 +845,7 @@ article {
     background: #fff;
     padding: 5em 9em;
     position: relative; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
       article .entry {
         padding: 7em 1em 1em;
         width: 90%; } }
@@ -853,7 +853,7 @@ article {
       font-weight: 700;
       font-size: 40px;
       line-height: 50px; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1200px) {
         article .entry h2 {
           font-size: 28px;
           line-height: 38px; } }
@@ -1039,7 +1039,7 @@ input[type="text"] {
       font-size: 50px;
       margin-bottom: 50px;
       font-weight: 700; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1200px) {
         #colorlib-subscribe .colorlib-heading h2 {
           font-size: 30px; } }
     #colorlib-subscribe .colorlib-heading p {
@@ -1089,7 +1089,7 @@ input[type="text"] {
   #colorlib-footer .colorlib-footer-links {
     padding: 0;
     margin: 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
       #colorlib-footer .colorlib-footer-links {
         margin-bottom: 30px; } }
     #colorlib-footer .colorlib-footer-links li {
@@ -1125,7 +1125,7 @@ input[type="text"] {
   width: 100%;
   height: 500px;
   position: relative; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     #map {
       height: 200px; } }
 
@@ -1149,7 +1149,7 @@ input[type="text"] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     #colorlib-offcanvas {
       display: block; } }
   .offcanvas #colorlib-offcanvas {
@@ -1319,7 +1319,7 @@ input[type="text"] {
   width: 44px;
   z-index: 2001;
   border-bottom: none !important; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .colorlib-nav-toggle {
       display: block; } }
 
