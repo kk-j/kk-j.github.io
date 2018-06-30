@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, figure {
         -o-transition: 0.5s;
         transition: 0.5s; }
         .colorlib-nav ul li a:hover {
-          color: blue; }
+          color: #0942a0; }
       .colorlib-nav ul li.has-dropdown {
         position: relative; }
         .colorlib-nav ul li.has-dropdown .dropdown {
@@ -1161,7 +1161,7 @@ input[type="text"] {
   #colorlib-offcanvas a {
     color: blue; }
     #colorlib-offcanvas a:hover {
-      color: #657AFF; }
+      color: blue; }
   #colorlib-offcanvas ul {
     padding: 0;
     margin: 0; }
