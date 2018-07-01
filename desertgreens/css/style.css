@@ -1268,10 +1268,10 @@ input[type="text"] {
       -o-transition: all .2s ease-out;
       transition: all .2s ease-out; }
   .colorlib-nav-toggle.colorlib-nav-white > i {
-    color: #fff;
-    background: #fff; }
+    color: #0942a0;
+    background: #0942a0; }
     .colorlib-nav-toggle.colorlib-nav-white > i::before, .colorlib-nav-toggle.colorlib-nav-white > i::after {
-      background: #fff; }
+      background: #0942a0; }
 
 .colorlib-nav-toggle i::before {
   top: -7px; }
